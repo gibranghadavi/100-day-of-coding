@@ -1,9 +1,9 @@
  #day 20
-nama_karyawan =input("masukkan nam karyawan :")
+nama_karyawan =input("masukkan namasusi karyawan :")
 jumlah_anak =int(input("masukkan jumlah anak :"))
 gaji_pokok = int(input("masukkan gaji pokok :"))
 tunjangan_istri = (20/100) * gaji_pokok
-tunjungan_anak = (5/100) + jumlah_anak * gaji_pokok
+tunjungan_anak = (5/100) * jumlah_anak * gaji_pokok
 total_tunjangan = tunjangan_istri + tunjungan_anak
 gaji_kotor = gaji_pokok + total_tunjangan
 pajak = 10/100
